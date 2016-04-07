@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    background-color: #666;
+}
+
+li a {
+    display: block;
+    color: #eee;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+    background-color: #008;
+    color: white;
+}
+
+
+.bar {
+  fill: #06f;
+}
+
+.bar:hover {
+  fill: #f60;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
